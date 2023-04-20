@@ -1,0 +1,34 @@
+/*
+    - Utiliser des padding, margin, font-size, etc en 16px et multiples
+    ou utiliser la suite de Fibonacci (0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89,...).
+
+    - Attention : lien (bouton) "Call to Action" sur un slider
+
+    Color, style :
+	
+
+
+	Font :
+	
+	@font-face {
+		font-family: 'font';
+		src:     url(‘/fonts/font-Regular.ttf’) format(‘truetype’)
+	}
+
+    font-family: 'font', sans-serif;
+
+
+    Margin : 
+
+    h1, h2, h3, h4, h5, h6, input, label, img, p {
+        margin-bottom: 16px;
+    }
+
+*/
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+

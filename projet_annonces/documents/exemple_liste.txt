@@ -1,0 +1,93 @@
+Array ( 
+	[1] => annonce Object ( 
+					[champs:protected] => Array ( 
+										[0] => titre 
+										[1] => description 
+										[2] => photo 
+										[3] => prix 
+										[4] => publication 
+										[5] => etat ) 
+					[table:protected] => annonce 
+					[liens:protected] => Array ( 
+										[0] => utilisateur					
+									    ) 
+					[id:protected] => 1 
+					[valeurs:protected] => Array ( 
+										[titre] => Vends Triumph III 1967 
+										[description] => Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+										[photo] => triumph_spitfire_3.jpg 
+										[prix] => 12450.00 
+										[publication] => 2023-04-04 
+										[etat] => en_cours 
+									     ) 
+				   )
+	[2] => annonce Object ( 
+					[champs:protected] => Array ( 
+										[0] => titre 
+										[1] => description 
+										[2] => photo 
+										[3] => prix 
+										[4] => publication 
+										[5] => etat 
+									    ) 
+					[table:protected] => annonce 
+					[liens:protected] => Array ( 
+										[0] => utilisateur 
+									   ) 
+					[id:protected] => 2 
+					[valeurs:protected] => Array ( 
+										[titre] => Carte Magic Lotus noir 
+										[description] => Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+										[photo] => black_lotus.jpg 
+										[prix] => 10000.00 
+										[publication] => 2023-04-04 
+										[etat] => en_cours 
+									     ) 
+ 				  ) 
+	[3] => annonce Object ( 
+					[champs:protected] => Array ( 
+										[0] => titre 
+										[1] => description 
+										[2] => photo 
+										[3] => prix 
+										[4] => publication 
+										[5] => etat 
+									    ) 
+					[table:protected] => annonce 
+					[liens:protected] => Array ( 
+										[0] => utilisateur 
+									   ) 
+					[id:protected] => 3 
+					[valeurs:protected] => Array ( 
+										[titre] => Jeu d'échecs F1 
+										[description] => Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+										[photo] => jeu_echecs_f1 
+										[prix] => 39523.00 
+										[publication] => 2022-06-08 
+										[etat] => en_cours 
+									     ) 
+				   ) 
+	[4] => annonce Object ( 
+					[champs:protected] => Array ( 
+										[0] => titre 
+										[1] => description 
+										[2] => photo 
+										[3] => prix 
+										[4] => publication 
+										[5] => etat 
+									    ) 
+				      [table:protected] => annonce 
+					[liens:protected] => Array ( 
+										[0] => utilisateur 
+								   	   ) 
+					[id:protected] => 4 
+					[valeurs:protected] => Array ( 	
+										[titre] => Pot tonnelet du 1er siècle 
+										[description] => Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+										[photo] => pot_tonnelet 
+										[prix] => 1250.00 
+										[publication] => 2022-09-15 
+										[etat] => termine 
+								           ) 
+				 )  
+) 
