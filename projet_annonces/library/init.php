@@ -24,6 +24,6 @@ include_once("fonctions.php");
 // Ouvrir la base de données dans la variable globale $bdd
 global $bdd;       
 // Connexion à la base de données et ouverture
-$bdd = new PDO("mysql:host=localhost;dbname=projets_annonces_mzimmermann;charset=UTF8", "mzimmermann", "SnnjH%ef9e?A");
+$bdd = new PDO("mysql:host=localhost;dbname=dbname;charset=UTF8", "username", "password");
 // En mise au point : pour afficher les erreurs que remonte la base d données
 $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
