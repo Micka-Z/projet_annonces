@@ -79,7 +79,7 @@ class _model {
 
         if (!empty($this->valeurs[$nomChamp])) {
             // On a une valeur : on la formate en HTML
-            return nl2br(htmlentities($this->valeurs[$nomChamp]));
+            return nl2br(htmlspecialchars($this->valeurs[$nomChamp]));
         } else {
             return "";
         }
