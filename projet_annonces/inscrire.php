@@ -84,7 +84,7 @@ $messageHTML = '
 </head>
 <body>
     <p>Bonjour</p>
-    <p>' . nl2br(htmlentities($message)) . '</p>
+    <p>' . nl2br(htmlspecialchars($message)) . '</p>
 </body>
 </html>
 ';
