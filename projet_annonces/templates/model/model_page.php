@@ -27,8 +27,8 @@
             foreach ($listes as $element) {
                 ?>
                 <ul class="list-group my-3">
-                    <li class="list-group-item bg-light fw-bold"><a href="lien.php?id=<?= htmlentities($element->id()) ?>"><?= htmlentities($element->getAttribut()) ?></a></li>
-                    <li class="list-group-item"><?= htmlentities($element->getAttribut()) ?></li>
+                    <li class="list-group-item bg-light fw-bold"><a href="lien.php?id=<?= htmlspecialchars($element->id()) ?>"><?= htmlspecialchars($element->getAttribut()) ?></a></li>
+                    <li class="list-group-item"><?= htmlspecialchars($element->getAttribut()) ?></li>
                 </ul>
                 <?php
             }
@@ -62,10 +62,10 @@
         <th scope="col">Action</th>
     </tr>
     <tr>
-        <td><?= htmlentities($produit->getDesignation()) ?></td>
-        <td><?= htmlentities($produit->getFournisseur()->getNom()) ?></td>
-        <td><?= htmlentities($produit->getPrixAchat()) ?>€</td>
-        <td><a href="afficher_form_modif_produit.php?id=<?= htmlentities($produit->id()) ?>" class="btn btn-primary">Voir le détail</a></td>
+        <td><?= htmlspecialchars($produit->getDesignation()) ?></td>
+        <td><?= htmlspecialchars($produit->getFournisseur()->getNom()) ?></td>
+        <td><?= htmlspecialchars($produit->getPrixAchat()) ?>€</td>
+        <td><a href="afficher_form_modif_produit.php?id=<?= htmlspecialchars($produit->id()) ?>" class="btn btn-primary">Voir le détail</a></td>
     </tr>
 </table>
 
